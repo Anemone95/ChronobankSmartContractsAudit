@@ -134,6 +134,7 @@ contract Vote is Managed {
                 if(_total == 0) {
 		            delete p.memberOption[_address];
                     remove(i, _address);
+                    i--;
                 }
             }
         }
