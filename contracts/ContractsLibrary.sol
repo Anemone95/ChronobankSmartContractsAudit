@@ -10,7 +10,7 @@ library ContractsLibrary {
     }
 
     function getContractId(address db, address contractAddress) internal returns(uint){
-        return EternalStorage(db).getUIntValue(sha3("contacts/ids", contractAddress));
+        return EternalStorage(db).getUIntValue(sha3("contracts/ids", contractAddress));
     }
     
     function getContractAddress(address db, uint contractId) internal returns(address){
@@ -44,6 +44,14 @@ library ContractsLibrary {
         }
         EternalStorage(db).setUIntValue(sha3("contracts/type", contractId), tp);
         return contractId;
+    }
+
+    function removeContract(address db, uint contractId) internal {
+        uint contractAddress = getContractAddress(db, contractId);
+        EternalStorage(db).deleteUIntValue(sha3("contracts/ids", contractAddress));
+        EternalStorage(db).deleteAddressValue(sha3("contracts/address", contractId));
+        EternalStorage(db).deleteUIntValue(sha3("contracts/created-on", contractId));
+        EternalStorage(db).deleteUIntValue(sha3("contracts/type", contractId));
     }
 
 }
