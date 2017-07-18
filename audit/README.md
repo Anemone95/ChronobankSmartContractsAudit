@@ -25,8 +25,9 @@
   * [ ] contract ChronoBankAssetInterface 
 * [ ] [ChronoBankAssetProxy.md](code-review/ChronoBankAssetProxy.md)
   * [ ] contract ChronoBankAssetProxy is ERC20 
-* [ ] [ChronoBankAssetProxyInterface.md](code-review/ChronoBankAssetProxyInterface.md)
-  * [ ] contract ChronoBankAssetProxyInterface 
+* [x] [ChronoBankAssetProxyInterface.md](code-review/ChronoBankAssetProxyInterface.md)
+  * [x] contract ChronoBankAssetProxyInterface 
+    * **NOTE** `init(...)` and `proposeUpgrade(...)` should return `bool`
 * [ ] [ChronoBankAssetWithFee.md](code-review/ChronoBankAssetWithFee.md)
   * [ ] contract ChronoBankAssetWithFee is ChronoBankAsset, Owned 
 * [ ] [ChronoBankAssetWithFeeProxy.md](code-review/ChronoBankAssetWithFeeProxy.md)
