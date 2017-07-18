@@ -9,6 +9,7 @@ Source file [../../contracts/UserManagerInterface.sol](../../contracts/UserManag
 ```javascript
 pragma solidity ^0.4.8;
 
+// BK Ok - Interface for UserManager contract
 contract UserManagerInterface {
 
     function getCBE(address _member) constant returns (bool);

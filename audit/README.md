@@ -99,8 +99,8 @@
   * [ ] contract MultiEventsHistoryAdapter 
 * [ ] [Owned.md](code-review/Owned.md)
   * [ ] contract Owned 
-* [ ] [OwnedInterface.md](code-review/OwnedInterface.md)
-  * [ ] contract OwnedInterface 
+* [x] [OwnedInterface.md](code-review/OwnedInterface.md)
+  * [x] contract OwnedInterface 
 * [ ] [PendingManager.md](code-review/PendingManager.md)
   * [ ] contract PendingManager is Managed, PendingManagerEmitter 
 * [ ] [PendingManagerEmitter.md](code-review/PendingManagerEmitter.md)
@@ -135,14 +135,14 @@
   * [ ] contract TimeHolder is Owned, TimeHolderEmmiter 
 * [ ] [TimeHolderEmmiter.md](code-review/TimeHolderEmmiter.md)
   * [ ] contract TimeHolderEmmiter is MultiEventsHistoryAdapter 
-* [ ] [TimeHolderInterface.md](code-review/TimeHolderInterface.md)
-  * [ ] contract TimeHolderInterface 
+* [x] [TimeHolderInterface.md](code-review/TimeHolderInterface.md)
+  * [x] contract TimeHolderInterface 
 * [ ] [UserManager.md](code-review/UserManager.md)
   * [ ] contract UserManager is Managed, UserManagerEmitter 
 * [ ] [UserManagerEmitter.md](code-review/UserManagerEmitter.md)
   * [ ] contract UserManagerEmitter is MultiEventsHistoryAdapter 
-* [ ] [UserManagerInterface.md](code-review/UserManagerInterface.md)
-  * [ ] contract UserManagerInterface 
+* [x] [UserManagerInterface.md](code-review/UserManagerInterface.md)
+  * [x] contract UserManagerInterface 
 * [ ] [UserProxy.md](code-review/UserProxy.md)
   * [ ] contract UserProxy is Owned 
 * [ ] [Vote.md](code-review/Vote.md)

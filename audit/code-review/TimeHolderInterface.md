@@ -11,6 +11,7 @@ pragma solidity ^0.4.8;
 
 import {ERC20Interface as Asset} from "./ERC20Interface.sol";
 
+// BK Ok - Interface for TimeHolder contract
 contract TimeHolderInterface {
 
     mapping(address => uint) public shares;
