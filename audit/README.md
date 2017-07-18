@@ -15,8 +15,8 @@
   * [ ] contract AssetsManager is Managed, AssetsManagerEmitter 
 * [ ] [AssetsManagerEmitter.md](code-review/AssetsManagerEmitter.md)
   * [ ] contract AssetsManagerEmitter is MultiEventsHistoryAdapter 
-* [ ] [AssetsManagerInterface.md](code-review/AssetsManagerInterface.md)
-  * [ ] contract AssetsManagerInterface 
+* [x] [AssetsManagerInterface.md](code-review/AssetsManagerInterface.md)
+  * [x] contract AssetsManagerInterface 
 * [ ] [AssetsManagerMock.md](code-review/AssetsManagerMock.md)
   * [ ] contract AssetsManagerMock 
 * [ ] [ChronoBankAsset.md](code-review/ChronoBankAsset.md)
